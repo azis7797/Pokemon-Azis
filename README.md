@@ -1,65 +1,86 @@
-# 🎯 Pokemon-Azis
+# 🐾 Pokemon-Azis
+Selamat datang di Pokemon-Azis! Proyek ini merupakan implementasi sederhana namun powerful dari React menggunakan konsep useReducer untuk manajemen state. Cocok bagi Anda yang ingin mempelajari React lebih dalam dengan pola state management yang rapi dan scalable.
+
+# 🎮 Demo Langsung
+👉 https://pokemon-azis.vercel.app/
+
+![image](https://github.com/user-attachments/assets/08d7edf8-f24f-46be-88be-dffc18a665da)
+
+![image](https://github.com/user-attachments/assets/390ca6b7-12a3-4a8e-a51f-c7fd6c4c72d9)
+
+![image](https://github.com/user-attachments/assets/3c1e5ac7-6c07-4951-afff-d1f6cd58e9a1)
 
 
-![image](https://github.com/user-attachments/assets/f60fd107-8507-4db3-a00d-77e372634324)
 
+# ⚙️ Fitur Utama
+⚛️ ReactJS — Library frontend paling populer di dunia.
 
-Selamat datang di Pokemon-Azis!
-Project ini adalah implementasi sederhana namun powerful dari React menggunakan konsep Reducer untuk manajemen state — cocok untuk yang ingin belajar React lebih dalam dengan pola state management yang rapi dan scalable.
+🧠 useReducer Hook — Manajemen state yang lebih terstruktur.
 
-# 🚀 Fitur Utama
-⚛️ ReactJS — Frontend library paling populer di dunia.
+🔄 Fetch Data Pokemon — Mengambil data dari API Pokemon.
 
-🧠 useReducer Hook — Manajemen state lebih terstruktur.
+🧩 Komponen Reusable — Modular dan mudah dipelihara.
 
-🎲 Fetch Data Pokemon — Ambil data dari API Pokemon.
+📱 Desain Responsif — Cocok untuk semua perangkat.
 
-💡 Komponen Reusable — Modular dan mudah dipelihara.
+# 🧠 Kenapa Menggunakan useReducer?
+useReducer membuat pengelolaan state lebih sederhana untuk aplikasi dengan banyak kondisi. Dibandingkan dengan useState, useReducer membuat logika menjadi lebih jelas dan terorganisir.
 
-💻 Responsive Design — Cocok buat semua perangkat.
-
-# 🔥 Kenapa Pakai Reducer?
-useReducer bikin pengelolaan state lebih simpel untuk aplikasi yang punya banyak kondisi. Dibanding useState, useReducer bikin logika jadi lebih jelas, seperti ini:
+Contoh penggunaan:
 
 javascript
 Salin
 Edit
 const [state, dispatch] = useReducer(reducer, initialState);
 
-dispatch({ type: 'TANGKAP_POKEMON', payload: dataPokemon });
-# 📦 Instalasi
-Clone repo-nya dulu:
+dispatch({ type: 'TANGKAP_POKEMON', payload: pokemon });
+# 🛠️ Teknologi yang Digunakan
+React
+
+Vite
+
+JavaScript (ES6+)
+
+PokéAPI
+
+Tailwind CSS (opsional, jika digunakan)
+
+# 📂 Struktur Proyek
+pgsql
+Salin
+Edit
+Pokemon-Azis/
+├── public/
+├── src/
+│   ├── components/
+│   ├── context/
+│   ├── reducers/
+│   ├── App.js
+│   └── index.js
+├── .gitignore
+├── package.json
+├── vite.config.js
+└── README.md
+# 🚀 Cara Menjalankan Proyek
+Klon repositori ini
 
 bash
 Salin
 Edit
 git clone https://github.com/azis7797/Pokemon-Azis.git
 cd Pokemon-Azis
+Instal dependensi
+
+bash
+Salin
+Edit
 npm install
-npm start
-# 💡 Teknologi yang Digunakan
-ReactJS (Vite/CRA)
+Jalankan server pengembangan
 
-Reducer & Context API
+bash
+Salin
+Edit
+npm run dev
+Buka di browser
 
-Axios / Fetch API
-
-TailwindCSS (optional styling)
-
-PokéAPI (API data pokemon)
-
-# 🎥 Demo
-Cek videonya di sini:
-[Tambahkan Link Demo atau GIF Screen Capture]
-
-# 🙌 Kontribusi
-Pull Request sangat diterima!
-Bantu kembangkan project ini bareng-bareng, jangan lupa fork & bintangin repo kalau suka ya ⭐.
-
-# 📸 Preview UI
-Nanti bisa diisi dengan screenshot aplikasi kamu setelah running.
-
-# 📧 Kontak
-Punya pertanyaan atau saran?
-Hubungi saya via LinkedIn https://www.linkedin.com/in/nur-azis-544a79189/.
-
+Akses http://localhost:5173 untuk melihat aplikasi.
