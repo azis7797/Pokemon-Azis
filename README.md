@@ -61,26 +61,3 @@ Pokemon-Azis/
 ├── package.json
 ├── vite.config.js
 └── README.md
-# 🚀 Cara Menjalankan Proyek
-Klon repositori ini
-
-bash
-Salin
-Edit
-git clone https://github.com/azis7797/Pokemon-Azis.git
-cd Pokemon-Azis
-Instal dependensi
-
-bash
-Salin
-Edit
-npm install
-Jalankan server pengembangan
-
-bash
-Salin
-Edit
-npm run dev
-Buka di browser
-
-Akses http://localhost:5173 untuk melihat aplikasi.
